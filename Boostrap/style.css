@@ -1,0 +1,24 @@
+ul li {
+  list-style: none;
+}
+button {
+  border: none;
+  background-color: white;
+}
+
+span {
+  display: flex;
+  font-size: 10px;
+  font-weight: bold;
+}
+p {
+  font-weight: 500;
+}
+
+img {
+  border-radius: 4%;
+}
+
+footer {
+  display: inline-block;
+}
