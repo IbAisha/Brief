@@ -1,0 +1,137 @@
+html, body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    margin: 30px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    width: 100%;
+    z-index: 1;
+}
+.logo img {
+    height: 30px;
+    width: auto;
+}
+.searchbar {
+    text-align: center;
+} 
+input {
+    justify-content: center;
+    transform: translateX(-50%);
+    width:200px;
+    height: 35px;
+    border-radius: 25px;
+    border: 1px grey solid;
+    font-size: 15px;
+    padding: 5px;
+   
+}
+
+.searchbar a {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.spacer {
+   padding: 50px;
+}
+
+nav {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul li {
+    display: inline-block;
+    padding: 10px;
+    opacity: 0.7;
+}
+ul li:hover {
+    opacity: 1;
+}
+
+ul li img {
+    height: 25px;
+    width: auto;
+}
+span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    display: flex;
+}
+
+p {
+    display: flex;
+    justify-content:flex-start;
+    margin-left: 8%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: black;
+}
+
+.box p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:normal;
+    margin-left: 5%;
+    color: grey;
+    font-weight:100;
+    font-size: 12px;
+    line-height: 50%;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2%;
+}
+main.content h1 {
+    font-size: 13px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+    font-weight:bold;
+    
+}
+
+.content img {
+    height: 230px;
+    width: 260px;
+    border-radius: 5%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 10px 7px;
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    position: sticky;
+    bottom: 0;
+    background-color: white;
+}
+footer ul li:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) { .content img {
+    height: 270px;
+    width: auto;}    
+}
+
+@media (max-width: 600px) { .content p {
+    font-size: 15px;}  
+    main.content h1 {
+        font-size: 20px;
+    }
+    
+}
+
