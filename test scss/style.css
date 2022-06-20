@@ -1,0 +1,88 @@
+html, body {
+  margin: 0;
+}
+
+#logo {
+  height: 30px;
+  width: auto;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+
+.topnav {
+  text-align: center;
+}
+
+a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: black;
+  font-size: 14px;
+}
+
+.host {
+  text-align: right;
+  margin-right: 10px;
+}
+
+.icons {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.icons button {
+  background-color: white;
+  border: none;
+  opacity: 0.7;
+}
+.icons button:hover {
+  opacity: 1;
+}
+.icons ul li {
+  display: inline;
+}
+
+span {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+}
+
+main.content img {
+  margin: auto;
+  height: 200px;
+  width: 250px;
+  margin: 10px;
+  border-radius: 3%;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  margin: 15px;
+  line-height: 1.43;
+}
+
+.content {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#sentence {
+  font-weight: normal;
+  justify-content: left;
+  text-align: left;
+}
+
+footer ul li {
+  display: inline;
+}
+
+/*# sourceMappingURL=style.css.map */
